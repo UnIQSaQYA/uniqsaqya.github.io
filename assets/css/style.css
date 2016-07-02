@@ -4733,19 +4733,30 @@ body {
   background-color: #E0E0E0; }
 
 .mt-3 {
-  margin-top: 30; }
+  margin-top: 30px; }
 
-.mt-3 {
-  margin-top: 60; }
+.mt-6 {
+  margin-top: 60px; }
 
-.mt-3 {
-  margin-top: 80; }
+.mt-8 {
+  margin-top: 80px; }
 
-.mt-3 {
-  margin-top: 100; }
+.mt-100 {
+  margin-top: 100px; }
 
 .text-center {
   text-align: center; }
+
+section {
+  padding: 60px 0; }
+  section h1 {
+    font-weight: 700;
+    margin-bottom: 10px; }
+  section p {
+    margin-bottom: 30px;
+    color: #665458; }
+    section p:last-child {
+      margin-bottom: 0; }
 
 nav {
   height: 100px;
@@ -4829,9 +4840,13 @@ nav.shrink a {
   padding-top: 150px; }
   .portfolio_wrapper .img-thumbnail {
     width: auto;
-    height: 400px; }
+    height: 300px; }
   .portfolio_wrapper h2 {
     font-size: 40px; }
+
+.work-wrapper {
+  background-color: #3cb5f9;
+  margin-top: 20px; }
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
