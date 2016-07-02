@@ -4655,4 +4655,102 @@ a.bg-danger:focus, a.bg-danger:hover {
   .hidden-print {
     display: none !important; } }
 
+body {
+  font-family: "Roboto", sans-serif;
+  height: 800px;
+  padding-top: 50px; }
+
+.mt-3 {
+  margin-top: 30; }
+
+.mt-3 {
+  margin-top: 60; }
+
+.mt-3 {
+  margin-top: 80; }
+
+.mt-3 {
+  margin-top: 100; }
+
+nav {
+  height: 100px;
+  background-color: #0683c9;
+  -webkit-transition: height 0.3s;
+  -moz-transition: height 0.3s;
+  -ms-transition: height 0.3s;
+  -o-transition: height 0.3s;
+  transition: height 0.3s;
+  -moz-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6);
+  box-shadow: 3px 3px 3px rgba(68, 68, 68, 0.6); }
+  nav .navbar-brand {
+    padding-top: 20px;
+    color: #9FDBFC;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    nav .navbar-brand h1 {
+      font-size: 40px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+  nav .navbar-brand h1:hover {
+    color: #ffffff; }
+  nav .nav {
+    display: inline-block;
+    float: right;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    nav .nav a {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+      margin-left: 20px;
+      color: #9FDBFC;
+      font-weight: 700px;
+      font-size: 20px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    nav .nav li a:hover {
+      color: #ffffff; }
+  nav .navbar-brand .logo {
+    font-size: 20px;
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+
+nav.shrink {
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 18px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.portfolio_wrapper {
+  padding-top: 50px; }
+
 /*# sourceMappingURL=style.css.map */
