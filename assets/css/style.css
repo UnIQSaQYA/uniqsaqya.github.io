@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0; 
-  height:100px;
+
 }
 
 article,
@@ -4731,7 +4731,8 @@ a.bg-danger:focus, a.bg-danger:hover {
 body {
   font-family: "Roboto", sans-serif;
   padding-top: 50px;
-  background-color: #E0E0E0; }
+  background-color: #E0E0E0;
+  height:1000px;}
 
 .mt-3 {
   margin-top: 30px; }
