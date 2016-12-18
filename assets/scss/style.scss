@@ -1,5 +1,4 @@
 @import "_customVariables";
-@import "bootstrap/bootstrap";
 @import "custom";
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
 -------------------------------------------------------------- */
@@ -45,4 +44,7 @@ table {
 }
 a img {
 	border: none;
+}
+.portfolio_container img {
+	width:15%;
 }
