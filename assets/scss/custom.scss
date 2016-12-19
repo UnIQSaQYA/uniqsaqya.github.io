@@ -14,8 +14,7 @@ section {
 		margin-bottom:10px;
 	}
 	p {
-		margin-bottom:30px;
-		color:#665458;
+		color:#ffffff;
 		&:last-child {
 			margin-bottom:0
 		}
@@ -94,6 +93,10 @@ nav {
 	}
 	
 }
+
+.nav li a:active{
+	color:$white-color;
+}
 nav.shrink{
 	height:50px;
 	-webkit-transition: all 0.3s;
@@ -127,6 +130,6 @@ nav.shrink a{
 }
 
 .work-wrapper{
-	background-color:#3cb5f9;
+	background-color:#0683c9;
 	margin-top: 20px;
 }

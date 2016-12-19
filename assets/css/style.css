@@ -9,8 +9,7 @@ section {
     font-weight: 700;
     margin-bottom: 10px; }
   section p {
-    margin-bottom: 30px;
-    color: #665458; }
+    color: #ffffff; }
     section p:last-child {
       margin-bottom: 0; }
 
@@ -74,6 +73,9 @@ nav {
     -o-transition: all 0.3s;
     transition: all 0.3s; }
 
+.nav li a:active {
+  color: #ffffff; }
+
 nav.shrink {
   height: 50px;
   -webkit-transition: all 0.3s;
@@ -101,7 +103,7 @@ nav.shrink a {
     font-size: 40px; }
 
 .work-wrapper {
-  background-color: #3cb5f9;
+  background-color: #0683c9;
   margin-top: 20px; }
 
 /* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
@@ -151,5 +153,15 @@ a img {
 
 .portfolio_container img {
   width: 15%; }
+
+.quotation-mark {
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  font-family: "Times New Roman", Georgia, Serif; }
+
+.quote-text {
+  font-size: 19px; }
 
 /*# sourceMappingURL=style.css.map */
