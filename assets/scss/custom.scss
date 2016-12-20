@@ -78,6 +78,9 @@ nav {
 			a:hover{
 				color:$white-color;
 			}
+			.active{
+				color:$white-color;
+			}
 		}
 	}
 
@@ -94,9 +97,6 @@ nav {
 	
 }
 
-.nav li a:active{
-	color:$white-color;
-}
 nav.shrink{
 	height:50px;
 	-webkit-transition: all 0.3s;
@@ -106,15 +106,18 @@ nav.shrink{
 	    transition: all 0.3s;
 }
 
-nav.shrink a{
-	padding-top: 10px !important;
-  	padding-bottom: 10px !important;
-  	font-size:18px;
-  	-webkit-transition: all 0.3s;
-	    -moz-transition: all 0.3s;
-	    -ms-transition: all 0.3s;
-	    -o-transition: all 0.3s;
-	    transition: all 0.3s;
+nav.shrink {
+	
+	a{
+		padding-top: 10px !important;
+	  	padding-bottom: 10px !important;
+	  	font-size:18px;
+	  	-webkit-transition: all 0.3s;
+		    -moz-transition: all 0.3s;
+		    -ms-transition: all 0.3s;
+		    -o-transition: all 0.3s;
+		    transition: all 0.3s;
+	}
 }
 
 .portfolio_wrapper{

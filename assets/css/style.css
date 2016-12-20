@@ -63,6 +63,8 @@ nav {
       transition: all 0.3s; }
     nav .nav li a:hover {
       color: #ffffff; }
+    nav .nav li .active {
+      color: #ffffff; }
   nav .navbar-brand .logo {
     font-size: 20px;
     padding-top: 0px !important;
@@ -72,9 +74,6 @@ nav {
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s; }
-
-.nav li a:active {
-  color: #ffffff; }
 
 nav.shrink {
   height: 50px;
